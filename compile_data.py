@@ -9,6 +9,8 @@ pd.set_option('display.width', 2000)
 rankings_path = './data/rankings'
 ranking_files = sorted([f for f in os.listdir(rankings_path) if os.path.isfile(os.path.join(rankings_path, f))])
 
+experiment_type_map = {'A': 'Base', 'B': 'Ranked Full Features', 'C': 'Ranked Partial Features'}
+
 ranking_dfs = []
 for ranking_file in ranking_files:
     print(ranking_file)
@@ -22,7 +24,7 @@ for ranking_file in ranking_files:
 
     df = pd.read_csv(f'{rankings_path}/{ranking_file}', index_col=0)
     df.drop(['pricedollar', 'changepctparenthesis', 'color'], axis=1, inplace=True)
-    df['exp_type'] = experiment_type
+    df['exp_type'] = experiment_type_map[experiment_type]
     df['user_id'] = user_id
     df['exp_seq'] = experiment_seq
     print(df.head())
