@@ -29,6 +29,8 @@ for ranking_file in ranking_files:
 
     df = pd.read_csv(f'{rankings_path}/{ranking_file}', index_col=0)
     df.drop(['price', 'change', 'changepct', 'volume', 'name', 'pricedollar', 'changepctparenthesis', 'color'], axis=1, inplace=True)
+    if experiment_type == 'A' and user_id < 4 and experiment_seq > 1:
+        df = df.sample(frac=1).reset_index(drop=True)
     df = pd.merge(df, price_df, on='scode')
     df['exp_type'] = experiment_type_map[experiment_type]
     df['user_id'] = user_id
