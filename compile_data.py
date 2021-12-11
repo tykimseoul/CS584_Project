@@ -1,5 +1,6 @@
 import os
 import re
+
 import pandas as pd
 
 pd.set_option('display.max_columns', None)
@@ -11,9 +12,13 @@ ranking_files = sorted([f for f in os.listdir(rankings_path) if os.path.isfile(o
 
 experiment_type_map = {'A': 'Base', 'B': 'Ranked Full Features', 'C': 'Ranked Partial Features'}
 
+price_df = pd.read_csv('./data/price_data.csv')
+
 ranking_dfs = []
 for ranking_file in ranking_files:
     print(ranking_file)
+    if ranking_file == '.DS_Store':
+        continue
     z = re.match(r'X_(\w)_(\d)_step(\d).csv', ranking_file)
     experiment_type, user_id, experiment_seq = z.groups()[0], int(z.groups()[1]), int(z.groups()[2])
 
@@ -23,7 +28,8 @@ for ranking_file in ranking_files:
         experiment_seq += 1
 
     df = pd.read_csv(f'{rankings_path}/{ranking_file}', index_col=0)
-    df.drop(['pricedollar', 'changepctparenthesis', 'color'], axis=1, inplace=True)
+    df.drop(['price', 'change', 'changepct', 'volume', 'name', 'pricedollar', 'changepctparenthesis', 'color'], axis=1, inplace=True)
+    df = pd.merge(df, price_df, on='scode')
     df['exp_type'] = experiment_type_map[experiment_type]
     df['user_id'] = user_id
     df['exp_seq'] = experiment_seq
@@ -35,7 +41,7 @@ ranking_df = pd.concat(ranking_dfs)
 ranking_df['price'] = ranking_df['price'].str.replace(',', '').astype(float)
 ranking_df['change'] = ranking_df['change'].astype(float)
 ranking_df['volume'] = ranking_df['volume'].str.replace(',', '').astype(int)
-ranking_df['changepct'] = ranking_df['changepct'].str.replace('%', '').astype(float)
+ranking_df['changepct'] = ranking_df['changepct'].astype(float)
 ranking_df['color'] = ranking_df['change'].apply(lambda r: '#E24A4A' if r > 0 else '#3485FF')
 
 ranking_df.reset_index(drop=True, inplace=True)
