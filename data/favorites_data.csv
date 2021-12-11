@@ -1,0 +1,235 @@
+,scode,name,user_id
+0,AAPL,Apple Inc,1
+1,ABNB,Airbnb Inc,1
+2,FB,Meta Platforms Inc,1
+3,MSFT,Microsoft Corporation,1
+4,PFE,Pfizer Inc.,1
+5,AMZN,"Amazon.com, Inc.",1
+6,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,1
+7,GOOG,Alphabet Inc Class C,1
+8,DIS,Walt Disney Co,1
+9,U,Unity Software Inc,1
+10,RBLX,Roblox Corp,1
+11,NVDA,NVIDIA Corporation,1
+12,NFLX,Netflix Inc,1
+13,MRNA,Moderna Inc,1
+14,ADBE,Adobe Inc,1
+15,SBUX,Starbucks Corporation,1
+16,NKE,Nike Inc,1
+17,BAC,Bank of America Corp,1
+18,BABA,Alibaba Group Holding Ltd - ADR,1
+19,WMT,Walmart Inc,1
+20,XOM,Exxon Mobil Corp,1
+21,PG,Procter & Gamble Co,1
+22,JNJ,Johnson & Johnson,1
+23,AMD,"Advanced Micro Devices, Inc.",1
+24,HD,Home Depot Inc,1
+25,MA,Mastercard Inc,1
+26,PLTR,Palantir Technologies Inc,1
+27,NKLA,Nikola Corporation,1
+28,V,Visa Inc,1
+29,RIVN,Rivian Automotive Inc,1
+30,JPM,JPMorgan Chase & Co.,1
+31,BA,Boeing Co,1
+32,ASML,ASML Holding NV,1
+33,MU,"Micron Technology, Inc.",1
+34,PYPL,Paypal Holdings Inc,1
+35,CEI,Camber Energy Inc,1
+36,LCID,Lucid Group Inc,1
+37,IONQ,IONQ Inc,1
+38,UNH,UnitedHealth Group Inc,1
+39,NKE,Nike Inc,2
+40,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,2
+41,SBUX,Starbucks Corporation,2
+42,NVDA,NVIDIA Corporation,2
+43,V,Visa Inc,2
+44,MA,Mastercard Inc,2
+45,PFE,Pfizer Inc.,2
+46,DIS,Walt Disney Co,2
+47,BA,Boeing Co,2
+48,MRNA,Moderna Inc,2
+49,MSFT,Microsoft Corporation,2
+50,GOOG,Alphabet Inc Class C,2
+51,AMZN,"Amazon.com, Inc.",2
+52,JNJ,Johnson & Johnson,2
+53,NFLX,Netflix Inc,2
+54,FB,Meta Platforms Inc,2
+55,RBLX,Roblox Corp,2
+56,AMD,"Advanced Micro Devices, Inc.",2
+57,RIVN,Rivian Automotive Inc,2
+58,ADBE,Adobe Inc,2
+59,U,Unity Software Inc,2
+60,AAPL,Apple Inc,2
+61,BAC,Bank of America Corp,2
+62,JPM,JPMorgan Chase & Co.,2
+63,WMT,Walmart Inc,2
+64,BABA,Alibaba Group Holding Ltd - ADR,2
+65,XOM,Exxon Mobil Corp,2
+66,IONQ,IONQ Inc,2
+67,CEI,Camber Energy Inc,2
+68,LCID,Lucid Group Inc,2
+69,UNH,UnitedHealth Group Inc,2
+70,HD,Home Depot Inc,2
+71,PYPL,Paypal Holdings Inc,2
+72,PG,Procter & Gamble Co,2
+73,PLTR,Palantir Technologies Inc,2
+74,NKLA,Nikola Corporation,2
+75,MU,"Micron Technology, Inc.",2
+76,ASML,ASML Holding NV,2
+77,ABNB,Airbnb Inc,2
+78,NVDA,NVIDIA Corporation,3
+79,GOOG,Alphabet Inc Class C,3
+80,AAPL,Apple Inc,3
+81,AMD,"Advanced Micro Devices, Inc.",3
+82,MSFT,Microsoft Corporation,3
+83,AMZN,"Amazon.com, Inc.",3
+84,RBLX,Roblox Corp,3
+85,ASML,ASML Holding NV,3
+86,NFLX,Netflix Inc,3
+87,FB,Meta Platforms Inc,3
+88,U,Unity Software Inc,3
+89,JPM,JPMorgan Chase & Co.,3
+90,BABA,Alibaba Group Holding Ltd - ADR,3
+91,RIVN,Rivian Automotive Inc,3
+92,LCID,Lucid Group Inc,3
+93,ABNB,Airbnb Inc,3
+94,SBUX,Starbucks Corporation,3
+95,PFE,Pfizer Inc.,3
+96,JNJ,Johnson & Johnson,3
+97,WMT,Walmart Inc,3
+98,UNH,UnitedHealth Group Inc,3
+99,ADBE,Adobe Inc,3
+100,V,Visa Inc,3
+101,MA,Mastercard Inc,3
+102,NKE,Nike Inc,3
+103,BAC,Bank of America Corp,3
+104,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,3
+105,MRNA,Moderna Inc,3
+106,PLTR,Palantir Technologies Inc,3
+107,DIS,Walt Disney Co,3
+108,CEI,Camber Energy Inc,3
+109,XOM,Exxon Mobil Corp,3
+110,PYPL,Paypal Holdings Inc,3
+111,NKLA,Nikola Corporation,3
+112,BA,Boeing Co,3
+113,MU,"Micron Technology, Inc.",3
+114,HD,Home Depot Inc,3
+115,IONQ,IONQ Inc,3
+116,PG,Procter & Gamble Co,3
+117,GOOG,Alphabet Inc Class C,4
+118,AMZN,"Amazon.com, Inc.",4
+119,NVDA,NVIDIA Corporation,4
+120,FB,Meta Platforms Inc,4
+121,AAPL,Apple Inc,4
+122,MSFT,Microsoft Corporation,4
+123,ADBE,Adobe Inc,4
+124,NFLX,Netflix Inc,4
+125,U,Unity Software Inc,4
+126,SBUX,Starbucks Corporation,4
+127,V,Visa Inc,4
+128,MA,Mastercard Inc,4
+129,DIS,Walt Disney Co,4
+130,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,4
+131,ABNB,Airbnb Inc,4
+132,XOM,Exxon Mobil Corp,4
+133,BABA,Alibaba Group Holding Ltd - ADR,4
+134,MRNA,Moderna Inc,4
+135,PYPL,Paypal Holdings Inc,4
+136,LCID,Lucid Group Inc,4
+137,JPM,JPMorgan Chase & Co.,4
+138,WMT,Walmart Inc,4
+139,NKE,Nike Inc,4
+140,HD,Home Depot Inc,4
+141,JNJ,Johnson & Johnson,4
+142,IONQ,IONQ Inc,4
+143,BAC,Bank of America Corp,4
+144,PG,Procter & Gamble Co,4
+145,PFE,Pfizer Inc.,4
+146,NKLA,Nikola Corporation,4
+147,MU,"Micron Technology, Inc.",4
+148,PLTR,Palantir Technologies Inc,4
+149,BA,Boeing Co,4
+150,CEI,Camber Energy Inc,4
+151,RIVN,Rivian Automotive Inc,4
+152,RBLX,Roblox Corp,4
+153,ASML,ASML Holding NV,4
+154,UNH,UnitedHealth Group Inc,4
+155,AMD,"Advanced Micro Devices, Inc.",4
+156,GOOG,Alphabet Inc Class C,5
+157,NVDA,NVIDIA Corporation,5
+158,ASML,ASML Holding NV,5
+159,AMD,"Advanced Micro Devices, Inc.",5
+160,MSFT,Microsoft Corporation,5
+161,AMZN,"Amazon.com, Inc.",5
+162,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,5
+163,MU,"Micron Technology, Inc.",5
+164,FB,Meta Platforms Inc,5
+165,MRNA,Moderna Inc,5
+166,AAPL,Apple Inc,5
+167,ADBE,Adobe Inc,5
+168,U,Unity Software Inc,5
+169,NFLX,Netflix Inc,5
+170,CEI,Camber Energy Inc,5
+171,DIS,Walt Disney Co,5
+172,RBLX,Roblox Corp,5
+173,PYPL,Paypal Holdings Inc,5
+174,ABNB,Airbnb Inc,5
+175,UNH,UnitedHealth Group Inc,5
+176,RIVN,Rivian Automotive Inc,5
+177,PFE,Pfizer Inc.,5
+178,SBUX,Starbucks Corporation,5
+179,LCID,Lucid Group Inc,5
+180,NKLA,Nikola Corporation,5
+181,BA,Boeing Co,5
+182,NKE,Nike Inc,5
+183,JNJ,Johnson & Johnson,5
+184,BABA,Alibaba Group Holding Ltd - ADR,5
+185,MA,Mastercard Inc,5
+186,WMT,Walmart Inc,5
+187,V,Visa Inc,5
+188,PLTR,Palantir Technologies Inc,5
+189,BAC,Bank of America Corp,5
+190,XOM,Exxon Mobil Corp,5
+191,JPM,JPMorgan Chase & Co.,5
+192,PG,Procter & Gamble Co,5
+193,IONQ,IONQ Inc,5
+194,HD,Home Depot Inc,5
+195,AAPL,Apple Inc,6
+196,NVDA,NVIDIA Corporation,6
+197,FB,Meta Platforms Inc,6
+198,MSFT,Microsoft Corporation,6
+199,GOOG,Alphabet Inc Class C,6
+200,NFLX,Netflix Inc,6
+201,ABNB,Airbnb Inc,6
+202,AMD,"Advanced Micro Devices, Inc.",6
+203,AMZN,"Amazon.com, Inc.",6
+204,ADBE,Adobe Inc,6
+205,LCID,Lucid Group Inc,6
+206,DIS,Walt Disney Co,6
+207,U,Unity Software Inc,6
+208,TSM,Taiwan Semiconductor Mfg. Co. Ltd.,6
+209,RBLX,Roblox Corp,6
+210,NKLA,Nikola Corporation,6
+211,SBUX,Starbucks Corporation,6
+212,NKE,Nike Inc,6
+213,V,Visa Inc,6
+214,MA,Mastercard Inc,6
+215,JPM,JPMorgan Chase & Co.,6
+216,BA,Boeing Co,6
+217,RIVN,Rivian Automotive Inc,6
+218,ASML,ASML Holding NV,6
+219,XOM,Exxon Mobil Corp,6
+220,BAC,Bank of America Corp,6
+221,PFE,Pfizer Inc.,6
+222,CEI,Camber Energy Inc,6
+223,MRNA,Moderna Inc,6
+224,PG,Procter & Gamble Co,6
+225,JNJ,Johnson & Johnson,6
+226,WMT,Walmart Inc,6
+227,IONQ,IONQ Inc,6
+228,HD,Home Depot Inc,6
+229,UNH,UnitedHealth Group Inc,6
+230,BABA,Alibaba Group Holding Ltd - ADR,6
+231,MU,"Micron Technology, Inc.",6
+232,PYPL,Paypal Holdings Inc,6
+233,PLTR,Palantir Technologies Inc,6
