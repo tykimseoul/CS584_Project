@@ -19,7 +19,7 @@ for ranking_file in ranking_files:
     print(ranking_file)
     if ranking_file == '.DS_Store':
         continue
-    z = re.match(r'X_(\w)_(\d)_step(\d).csv', ranking_file)
+    z = re.match(r'X_(\w)_(\d+)_step(\d+).csv', ranking_file)
     experiment_type, user_id, experiment_seq = z.groups()[0], int(z.groups()[1]), int(z.groups()[2])
 
     if experiment_type == 'A':
