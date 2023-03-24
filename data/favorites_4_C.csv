@@ -1,0 +1,40 @@
+score,scode,name
+100,AAPL,Apple Inc
+100,BABA,Alibaba Group Holding Ltd - ADR
+100,MRNA,Moderna Inc
+100,PYPL,Paypal Holdings Inc
+95,DIS,Walt Disney Co
+95,NKLA,Nikola Corporation
+95,NVDA,NVIDIA Corporation
+95,WMT,Walmart Inc
+90,GOOG,Alphabet Inc Class C
+90,IONQ,IONQ Inc
+90,MA,Mastercard Inc
+90,MSFT,Microsoft Corporation
+88,NFLX,Netflix Inc
+85,JPM,JPMorgan Chase & Co.
+78,JNJ,Johnson & Johnson
+75,TSM,Taiwan Semiconductor Mfg. Co. Ltd.
+70,ABNB,Airbnb Inc
+65,XOM,Exxon Mobil Corp
+61,NKE,Nike Inc
+60,V,Visa Inc
+55,PG,Procter & Gamble Co
+54,BAC,Bank of America Corp
+50,ADBE,Adobe Inc
+50,FB,Meta Platforms Inc
+41,U,Unity Software Inc
+40,LCID,Lucid Group Inc
+40,SBUX,Starbucks Corporation
+35,HD,Home Depot Inc
+30,PFE,Pfizer Inc.
+0,AMD,"Advanced Micro Devices, Inc."
+0,AMZN,"Amazon.com, Inc."
+0,ASML,ASML Holding NV
+0,BA,Boeing Co
+0,CEI,Camber Energy Inc
+0,MU,"Micron Technology, Inc."
+0,PLTR,Palantir Technologies Inc
+0,RBLX,Roblox Corp
+0,RIVN,Rivian Automotive Inc
+0,UNH,UnitedHealth Group Inc
